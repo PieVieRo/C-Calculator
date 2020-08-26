@@ -29,18 +29,19 @@ int main(int argc, const char **argv){
     printf("Use: \"./calculator [first number] [operation] [second number]\"\n");
     return 1;
   }
-  
+
+ /* 
   for(int i=0; i < sizeof(argv); i++) {
     printf("%d", argv);
-  }
+  } */
 
   const int first = (int) argv[1];
   const char op = (char) argv[2];
   const int second = (int) argv[3];
   
-  printf("first: %i\n", first);
-  printf("op: %c, %i\n", op, op);
-  printf("second: %i\n", second);
+  //printf("first: %i\n", first);
+  //printf("op: %c, %i\n", op, op);
+  //printf("second: %i\n", second);
 
   int answer;
   switch(op) {
