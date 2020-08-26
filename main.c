@@ -1,3 +1,9 @@
+/* 
+ * This project is made to test out WSL2
+ * I'm very bad at C
+ * Any feedback is appreciated
+ * */
+
 #include <stdio.h>
 #include <math.h>
 
